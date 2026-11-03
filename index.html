@@ -129,7 +129,7 @@ main{padding-block:0 40px}
 @media (prefers-reduced-motion:reduce){.gal-view{overflow-x:auto}}
 
 /* ribbon */
-.ribbon{margin-top:22px;overflow:hidden;border-radius:18px;background:var(--grape);color:#fff;transform:rotate(-1deg)}
+.ribbon{margin-top:22px;overflow:hidden;border-radius:18px;background:var(--grape);color:#fff}
 .ribbon .track{display:flex;gap:40px;width:max-content;padding-block:12px;animation:marquee 26s linear infinite;font-family:var(--display);font-weight:700;font-size:20px}
 .ribbon span{display:inline-flex;align-items:center;gap:14px;white-space:nowrap}
 .ribbon span::after{content:"✦";color:var(--sun)}
@@ -401,11 +401,12 @@ const SECTIONS = [
       {...F('1GVPTJfe_h4f8Hnvi843iOAze_QVyPTJ4'), name:'لجان المجلس', emoji:'🤝', c:'--sky'},
       {...F('1LxTsJC0mT__zjmzbvZXANL2HJE6EMbj-'), name:'أعمال ومبادرات المجلس', emoji:'🌱', c:'--sun'}]},
   {id:'contests', c:'--sun', name:'المسابقات المدرسية', desc:'مشاركات طلبتنا في المسابقات وإنجازاتهم التي نفخر بها.', items:[{...F('1Pj90QrEnEwgY6s7nwbjdU0Os92ijIdJy'), name:'مسابقة المدارس المعززة للهوية الوطنية', flag:true, c:'--coral'},
-      {type:'folder', url:null, name:'مسابقة الشطرنج', emoji:'♟️', c:'--grape'},
-      {type:'folder', url:null, name:'مسابقة بوكاري سويت', emoji:'🥤', c:'--sky'},
-      {type:'folder', url:null, name:'مسابقة المضادات الحيوية', emoji:'💊', c:'--mint'},
-      {type:'folder', url:null, name:'مسابقة حفظ القرآن الكريم والصوت الحسن', emoji:'📖', c:'--sun'},
-      {type:'folder', url:null, name:'مسابقة مجلس أولياء الأمور', emoji:'👪', c:'--pink'}]},
+      {...F('1ClmLi3SLj7krzDxyu2jyC2Mk15UXsYB4'), name:'مسابقة الشطرنج', emoji:'♟️', c:'--grape'},
+      {...F('1Mci4LUc-9P6gXJsZzzg-jIpBuBdSdg3Y'), name:'مسابقة بوكاري سويت', emoji:'🥤', c:'--sky'},
+      {...F('1IULpVJOO1OnRzwQJRksuuZ1IEQPTwL9J'), name:'مسابقة المضادات الحيوية', emoji:'💊', c:'--mint'},
+      {...F('13ig3gM8B8jK_JAThxis8UXrG7g3RJ2YA'), name:'مسابقة حفظ القرآن الكريم والصوت الحسن', emoji:'📖', c:'--sun'},
+      {...F('1UT7XjtaO7scTvrbfdtuUuXj-qKGBBPOg'), name:'مسابقة مجلس أولياء الأمور', emoji:'👪', c:'--pink'},
+      {...F('1Mp3Q9WP1F18h5UcZkl-NmCYSZ7yb7h8F'), name:'مسابقة دوري كرة القدم على مستوى الولاية', emoji:'⚽', c:'--mint'}]},
   {id:'social', c:'--pink', name:'الأخصائية الاجتماعية', desc:'أعمال الأخصائية الاجتماعية في رعاية الطلبة ودعمهم نفسيًّا واجتماعيًّا.', items:[{...F('1lSlVPLbDKhv79Qq0_XIhslxeNuaseUYE'), name:'توثيق أعمال الأخصائية الاجتماعية', emoji:'🤗', c:'--pink'}]},
   {id:'general', c:'--coral', name:'فريق التقويم الذاتي', desc:'أعمال فريق التقويم الذاتي للمدرسة وشواهده وخطط التحسين.',
     items:[{...F('1SbTYoOjlbulql3_j9WED9QqeGQtt8Qts'), name:'أعمال فريق التقويم الذاتي', emoji:'📋', c:'--coral'}]}
